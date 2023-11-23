@@ -11,20 +11,14 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.Base64;
 import java.util.Properties;
-import java.util.Map.Entry;
-
 import org.json.JSONArray;
-import org.json.JSONException;
 import org.json.JSONObject;
-import org.json.JSONString;
-
 import org.frum.files.FileHelper;
-import io.github.cdimascio.dotenv.Dotenv;
 
 public class AppLayer {
     public boolean getImagesByPrompt(String prompt) {
     	System.out.println("API key:" + getApiKey());
-        String apiKey = "Bearer " + getApiKey(); // Replace with your API Key
+        String apiKey = "Bearer " + getApiKey();
 
         boolean isSucceeded = false;
         

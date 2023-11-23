@@ -49,8 +49,6 @@ public class Main {
 		        // Handle IO errors or log a warning.
 		    }
 		}
-		// TODO Auto-generated method stub
-		AppLayer layer = new AppLayer();
 		
 		 // Create a JSON request body
         String requestBody = String.format("{\r\n"

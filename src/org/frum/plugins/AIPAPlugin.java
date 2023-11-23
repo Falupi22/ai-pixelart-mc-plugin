@@ -17,8 +17,6 @@ public class AIPAPlugin extends JavaPlugin {
 	public void onEnable() {
 		instance = this;
 		
-		FileHelper.createFolder();
-		
 		System.out.println("AIPA Plugin attached!");
 		
 		//Bukkit.getPluginManager().registerEvents(new AIPACommand(), this);
