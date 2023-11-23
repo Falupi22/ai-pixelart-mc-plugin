@@ -1,7 +1,0 @@
-main: org.frum.plugins.AIPAPlugin
-name: aipa
-version: 1
-commands:
-  aipa:
-    description: Generates a pixelart from an AI generated image.
-    usage: /aipa
