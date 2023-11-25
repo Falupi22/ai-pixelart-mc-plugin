@@ -18,8 +18,14 @@ Must have an API Key of [ChatGPT](https://platform.openai.com/).
 
 # Get Started
 
-Run this project in your IDE as a Maven package (in Eclipse, 'maven install').
-Put the artifact in the plugins folder of the server.
+Install the zip file and extract it.
+If any changes has been made in the code, run this project in your IDE as a Maven package (in Eclipse, 'maven install') 
+and create a folder 'ai-pixelart-mc-plugin', and create in it a file named 'config.yml' with the api key:
+````bash
+api_key=yourkey
+````
+
+Put the artifact(s) in the plugins folder of the server.
 Start the server, open it in MC and run your command.
 
 An example for such a command:
