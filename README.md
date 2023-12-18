@@ -19,7 +19,8 @@ Must have an API Key of [ChatGPT](https://platform.openai.com/).
 # Get Started
 
 Install the zip file and extract it.
-If any changes has been made in the code, run this project in your IDE as a Maven package (in Eclipse, 'maven install') 
+For developers, fork and clone. Make sure you install all the dependencies.
+Once your code is ready, run this project in your IDE as a Maven package (in Eclipse, 'maven install') 
 and create a folder 'ai-pixelart-mc-plugin', and create in it a file named 'config.yml' with the api key:
 ````bash
 api_key=yourkey
