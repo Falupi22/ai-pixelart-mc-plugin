@@ -27,5 +27,3 @@ An example for such a command:
 ``` bash
 /aipa prompt "purple dragon eats a hotdog" n 150
 ```
-
-For commands specification, see the code (very simple).
