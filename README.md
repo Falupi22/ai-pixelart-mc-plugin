@@ -27,3 +27,27 @@ An example for such a command:
 ``` bash
 /aipa prompt "purple dragon eats a hotdog" n 150
 ```
+
+```/aipa``` - Name of the plugin
+
+``prompt`` - A sub command of the plugin
+
+``"purple dragon eats a hotdog"`` - Prompt text
+
+``n`` - Direction (North). Full documentation is in the next section.
+
+``150`` - Size of the side of the picture.
+
+
+### Direction Values
+
+ Value | Direction    |
+| :---:   | :---: |
+| n | North   |
+| s | South   |
+| e | East   |
+| w | West   |
+| ne | FlatNorthEast   |
+| nw | FlatNorthWest   |
+| ne | SouthNorthEast   |
+| nw | FlatSouthWest   |
