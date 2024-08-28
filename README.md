@@ -49,5 +49,5 @@ An example for such a command:
 | w | West   |
 | ne | FlatNorthEast   |
 | nw | FlatNorthWest   |
-| ne | SouthNorthEast   |
-| nw | FlatSouthWest   |
+| se | SouthNorthEast   |
+| sw | FlatSouthWest   |
